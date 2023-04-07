@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "meme-personalization"
+version = "0.1.0"
+description = ""
+authors = ["ds-praveenkumar <praveenkr2208@gmail.com>"]
+readme = "README.md"
+packages = [{include = "meme_personalization"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.7.0.72"
+matplotlib = "^3.7.1"
+tqdm = "^4.65.0"
+pixellib = "^0.7.1"
+torch = "^2.0.0"
+pycocotools = "^2.0.6"
+torchvision = "^0.15.1"
+ipython = "^8.12.0"
+einops = "^0.6.0"
+pandas = "^2.0.0"
+numpy = "^1.24.2"
+pytorch-lightning = "^2.0.1"
+jsonmerge = "^1.9.0"
+clean-fid = "^0.1.35"
+ftfy = "^6.1.1"
+regex = "^2023.3.23"
+resize-right = "^0.0.2"
+torchdiffeq = "^0.2.3"
+torchsde = "^0.2.5"
+sklearn = "^0.0.post1"
+scikit-learn = "^1.2.2"
+timm = "^0.6.13"
+transformers = "^4.27.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
