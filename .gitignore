@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+models/pointrend_resnet50.pkl
